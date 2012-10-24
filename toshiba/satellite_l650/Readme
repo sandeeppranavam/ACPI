@@ -7,3 +7,18 @@
 installed kernel versions
 
 2) Compile a custom kernel with this DSDT -> works only for that specific kernel
+
+Steps
+=====
+
+1) Install 'iasl' package.
+
+2) Compile this DSDT.dsl using below command
+
+    iasl -tc DSDT.dsl
+
+This will generate DSDT.hex
+
+3) Use this hex file to specify a custom ACPI table in GRUB config or build a 
+custom kernel using this file. 
+
