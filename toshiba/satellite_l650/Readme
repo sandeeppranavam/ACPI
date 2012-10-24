@@ -1,0 +1,9 @@
+ Toshiba Satellite L650 comes installed with Windows. When Linux is installed on 
+ this it lacks some basic ACPI functionality like battery status, brightness 
+ control etc. By adding this custom DSDT table you can get back those lost 
+ functionality. You can make you kernel use this custom DSDT by two methods.
+
+1) Configure GRUB to provide this custom DSDT table to kernel -> Works with all 
+installed kernel versions
+
+2) Compile a custom kernel with this DSDT -> works only for that specific kernel
