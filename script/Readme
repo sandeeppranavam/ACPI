@@ -1,0 +1,11 @@
+To add the custom DSDT table you can use the script '01_acpi'.The script is 
+written for ubuntu. We minor modification it can be used for any Linux distro.
+
+1) Copy the DSDT.aml file to /boot/DSDT.aml
+
+2) Copy the script '01_acpi' to /etc/grub.d
+
+3) Do 'chmod +x' to '01_acpi' file.
+
+4) Update GRUB config using (i.e., in ubuntu run 'update-grub2')
+
