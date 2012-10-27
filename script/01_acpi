@@ -1,7 +1,7 @@
 #! /bin/sh -e
 
 # Uncomment to load custom ACPI table
-GRUB_CUSTOM_ACPI="/boot/dsdt.aml"
+GRUB_CUSTOM_ACPI="/boot/DSDT.aml"
 
 # DON'T MODIFY ANYTHING BELOW THIS LINE!
 
